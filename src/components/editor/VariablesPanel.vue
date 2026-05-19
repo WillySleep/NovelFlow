@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useProjectStore } from "@/stores/projectStore";
-import type { VariableType } from "@/domain/types";
+import type { VariableType } from "@/types/types";
 
 const store = useProjectStore();
 

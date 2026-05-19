@@ -1,4 +1,4 @@
-import type { SceneNode, StoryProject, ValidationIssue } from "./types";
+import type { SceneNode, StoryProject, ValidationIssue } from "@/types/types";
 
 export function validateProject(project: StoryProject): ValidationIssue[] {
   const issues: ValidationIssue[] = [];

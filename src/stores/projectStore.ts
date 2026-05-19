@@ -10,7 +10,7 @@ import type {
   StoryAsset,
   StoryProject,
   StoryVariable
-} from "@/domain/types";
+} from "@/types/types";
 
 const STORAGE_KEY = "novelflow_mvp_project";
 

@@ -1,4 +1,4 @@
-import type { Choice, Condition, Effect, StoryProject } from "./types";
+import type { Choice, Condition, Effect, StoryProject } from "@/types/types";
 
 export function exportProjectToRenpy(project: StoryProject): string {
   const lines: string[] = [];
